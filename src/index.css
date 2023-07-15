@@ -91,6 +91,7 @@ body {
 }
 
 .side-bar {
+  position: -webkit-sticky;
   position: relative;
   width: 259px;
   height: 88vh;
@@ -98,8 +99,9 @@ body {
   border: 1px solid rgba(212, 218, 223, 1);
   border-top: 0;
   border-bottom: 0;
-  display: block;
+  display: inline-block;
   background-color: rgba(245, 247, 249, 1);
+  
 
 }
 
@@ -133,4 +135,22 @@ body {
   border: black solid;
   border-radius: 8px;
   padding: 12px 50px;
+}
+
+.movie-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 30px 40px;
+
+}
+
+.movie {
+  padding: 24px;
+  margin: 10px;
+}
+
+
+.movie img{
+  position: relative;
 }
