@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 import logo from './images/logo_movie.png';
 import searchIcon from './images/Search-icon.png';
 

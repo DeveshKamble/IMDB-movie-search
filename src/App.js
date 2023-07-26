@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
 import TopBar from "./TopBar";
 import SideBar from "./SideBar";
 import MovieList from "./MovieList";
